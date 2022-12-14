@@ -1,0 +1,25 @@
+@import url("./style.css");
+
+.navegacao {
+    margin: 2rem;
+}
+
+.menu-principal {
+    display: flex;
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-principal ul {
+    display: flex;
+    gap: 2%;
+    width: 100%;
+}
+
+.menu-principal ul li a {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
