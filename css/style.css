@@ -1,9 +1,5 @@
 @import url("./menu.css");
 
-:root {
-    --bg-color: "#FAAB43";
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -41,3 +37,36 @@ body {
     bottom: 0%;
 }
 
+/*Primeiro banner*/
+
+.principal-banner {
+    height: 400px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.principal-banner h1, h2 {
+    color: #fff;
+    padding-left: 10rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.principal-banner h1 {
+    padding-top: 5rem;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.principal-banner h2 {
+    font-size: 28px;
+}
+
+.content-banner {
+    width: 98%;
+    height: 100%;
+    background-image: url("../images/banner-principal/banner-principa.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
