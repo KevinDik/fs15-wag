@@ -49,6 +49,7 @@ body {
 h2 {
     color: #fff;
     font-family: 'Inter', sans-serif;
+    padding-left: 2rem;
 }
 
 .principal-banner h1 {
@@ -124,7 +125,7 @@ h2 {
 /*3 seção motivation banner*/
 
 .motivation-banner {
-    margin-top: 200px;
+    margin: 200px 10px 0 10px;
 }
 
 .motivation-banner h2 {
@@ -134,29 +135,49 @@ h2 {
     font-size: 47px;
 }
 
-.images-aside div {
+.images-aside {
     display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin: 40px auto;
+}
+
+.images-aside div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 0;
+}
+
+.images-aside div div {
+    display: flex;
+    flex-direction: column;
 }
 
 .images-aside img {
-    display: flex;
-    flex-direction: column;
     width: 120px;
     height: 120px;
-}
-
-.images-aside h3, p {
-    width: 40%;
 }
 
 .images-aside h3 {
     font-weight: 700;
     font-size: 28px;
     color: #727272;
+    display: block;
 }
 
 .images-aside p {
     color: #727272;
     font-weight: 400;
     font-size: 18px;
+    display: block;
+}
+
+.images-aside button {
+    background-color: #00BF8F;
+    color: #fff;
+    border: none;
+    height: 40px;
+    width: 130px;
+    padding: 11px 24px;
+    margin: 0 auto;
 }
