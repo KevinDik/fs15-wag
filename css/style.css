@@ -48,7 +48,6 @@ body {
 .principal-banner h1,
 h2 {
     color: #fff;
-    padding-left: 10rem;
     font-family: 'Inter', sans-serif;
 }
 
@@ -123,3 +122,41 @@ h2 {
 }
 
 /*3 seção motivation banner*/
+
+.motivation-banner {
+    margin-top: 200px;
+}
+
+.motivation-banner h2 {
+    color: #727272;
+    text-align: center;
+    font-weight: 700;
+    font-size: 47px;
+}
+
+.images-aside div {
+    display: flex;
+}
+
+.images-aside img {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 120px;
+}
+
+.images-aside h3, p {
+    width: 40%;
+}
+
+.images-aside h3 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #727272;
+}
+
+.images-aside p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 18px;
+}
